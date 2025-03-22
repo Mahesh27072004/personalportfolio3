@@ -1,0 +1,328 @@
+*{
+    padding: 0 auto;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+#mainBody{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(189, 173, 164) ,rgb(67, 42, 9) 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameBox{
+    
+    width: 40vw;
+    padding: 0px 10px;
+    font-size: large;
+}
+.nameBox > h1{
+    color: white;
+    animation: name 2s ;
+    font-size: 20vh;
+}
+nav{
+    width: 6vw;
+    height: 80vh;
+    position: fixed;
+    left: 10px;
+    top: 12%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav>div{
+    width: 5vw;
+    height: 5vw;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin: 3px;
+    background: rgb(63, 16, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+nav>div>a{
+    display: flex;
+    justify-content: center;
+}
+nav>div>a>i{
+    color: white;
+    font-size: 2vw;
+}
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgb(67, 42, 9) 20%,rgb(189, 173, 164));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.aboutSection>main{
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+.aboutSection>main>article{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgba(11, 6, 6, 0.345);
+    border-radius: 5%;
+    margin: 10px;
+    
+}
+.aboutSection>main>article>img{
+    width: 75%;
+    height: 90%;
+    border-radius: 15%;
+    box-shadow: 10px 8px 15px 15px rgb(242, 244, 230);
+}
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    padding: 40px;
+}
+.aboutContent>h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+   
+}
+.about{
+    width: 90%;
+    height: 70%;
+    /* background: lightcoral; */
+    display: flex;
+}
+.about li{
+    padding: 5px;
+    font-size: small;
+}
+.about p{
+    font-size: small;
+}
+.about ul{
+    padding-top: 15px;
+}
+.about>div{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.503);
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.projects-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(189, 173, 164), rgb(67, 42, 9) 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-container>main{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    /* background: lightcoral; */
+}
+.projects-container>main>h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    font-weight: 900;
+    text-shadow: 3px 3px black;
+    padding: 30px;
+}
+.projects-container>main>article{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.359);
+    border-radius: 10px;
+}
+.projects-container>main>article>div{
+    width: 45%; 
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.251);
+}
+.projects-container>main>article>div>h1{
+    font-size: 20px;
+}
+.projects-container>main>article>div>p{
+    font-size: small;
+}
+#address{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(67, 42, 9) 20%,rgb(189, 173, 164));
+}
+#achievements{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(189, 173, 164), rgb(67, 42, 9) 80%);
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(67, 42, 9) 20%,rgb(189, 173, 164));
+}
+#address>div,
+#achivements>div,
+#contact>div{
+    width: 80%;
+    height: 80%;
+
+}
+.exp>h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    font-weight: 900;
+    text-shadow: 3px 3px black;
+    padding: 30px;
+}
+.exp div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    border-radius: 20px;
+    gap: 30px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.251);
+}
+.exp>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: rgba(0, 0, 0, 0.251);
+}
+
+.contact > main > h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    font-weight: 900;
+    text-shadow: 3px 3px black;
+    padding: 30px;
+  }
+  .contact > main > article {
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.251);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+  .info,
+  .contactForm {
+    width: 45%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.359);
+    padding: 20px;
+  }
+  .contact > main {
+    width: 80%;
+    height: 80%;
+   
+  }
+  .info p {
+    font-size: 17px;
+    color: white;
+    
+    padding: 10px;
+  }
+  .info a {
+    color: white;
+    
+  }
+  .allLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+  }
+  .allLinks a {
+    color: white;
+    
+    padding-bottom: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+  }
+  .map{
+    padding: 10px;
+    left: 20%;
+  }
+  input,
+  textarea {
+    color: rgb(196, 196, 196);
+    height: 20px;
+    background: #0000004e;
+    outline: none;
+    border: none;
+    padding: 20px;
+  }
+  textarea {
+    height: 150px;
+  }
+  form > a {
+    display: inline-block;
+    color: rgb(196, 196, 196);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(49, 49, 49);
+  }
+  
+
